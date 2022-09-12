@@ -1,0 +1,19 @@
+$("#sum_indicate").text(sum);
+    let average = sum / subject_points.length;
+    $("#average_indicate").text(average);
+    
+     if (averageIndicate >= 80) {
+      return "A";
+    } else if (averageIndicate >= 60) {
+      return "B";
+    } else if (averageIndicate >= 40) {
+      return "C";
+    } else {
+      return "D";
+    }
+
+
+for (let index = 0; index < number; index++) {
+      if (!(subject_points[index] >= 60)){
+        judge = "不合格"
+    }
